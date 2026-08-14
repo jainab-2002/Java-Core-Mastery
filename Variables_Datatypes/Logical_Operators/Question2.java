@@ -1,6 +1,6 @@
 package Variables_Datatypes.Logical_Operators;
 
-public class Question1 {
+public class Question2 {
     public static void main(String[] args) {
         //Question
         // check whether the student is eligible to appear for an exam.
