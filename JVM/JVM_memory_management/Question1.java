@@ -3,6 +3,7 @@ public class Question1 {
     public static void main(String[] args) {
 
         Question1 obj = new Question1();
+        System.out.println("Created object: " + obj);
 
         obj = null;
 
