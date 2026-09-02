@@ -3,10 +3,10 @@ class Question2 {
     public static void main(String[] args) {
 
         Question2 obj = new Question2();
+        System.out.println("Object created: " + obj); 
 
-        obj = null;   // Object becomes eligible for garbage collection
-
-        System.gc();  // Request JVM to run garbage collection
+        obj = null;  
+        System.gc();
 
         System.out.println("Garbage collection requested");
     }
