@@ -8,6 +8,7 @@ public class Question1 {
         obj = null;
 
         Question1 obj2 = new Question1();
+        System.out.println("Created second object: " + obj2);
 
         System.gc();
 
