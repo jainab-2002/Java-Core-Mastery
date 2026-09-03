@@ -1,0 +1,13 @@
+package exceptions.Throw_and_throws;
+public class Question1 {
+    public static void main(String[] args) {
+
+        int age = 16;
+
+        if (age < 18) {
+            throw new ArithmeticException("Not eligible to vote");
+        }
+
+        System.out.println("Eligible to vote");
+    }
+}
